@@ -1,0 +1,23 @@
+## Vold 2.0 Generic fstab
+##
+
+#######################
+## Regular device mount
+##
+## Format: dev_mount <label> <mount_point> <part> <sysfs_path1...>
+## label        - Label for the volume
+## mount_point  - Where the volume will be mounted
+## part         - Partition # (1 based), or 'auto' for first usable partition.
+## <sysfs_path> - List of sysfs paths to source devices
+######################
+
+# mount point	fstype		device
+/sdcard		vfat		/dev/block/mmcblk1p1
+/system		ext4		/dev/block/mmcblk0p2
+/cache		ext4		/dev/block/mmcblk0p4
+/data		ext4		/dev/block/mmcblk0p3
+
+/kernel		mtd		kernel
+/ramdisk	mtd		ramdisk
+/misc 		emmc 		misc
+

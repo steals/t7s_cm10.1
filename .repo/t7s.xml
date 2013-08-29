@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<manifest> 
+  <remote fetch="http://github.com/" name="gh" revision="cm-10.1" /> 
+  <project name="TheMuppets/proprietary_vendor_samsung" path="vendor/samsung" remote="gh" revision="cm-10.1" />
+  <project name="CyanogenMod/android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="gh" revision="cm-10.1" />
+  <project name="CyanogenMod/android_hardware_samsung" path="hardware/samsung" remote="gh" revision="cm-10.1" />
+  <project name="CyanogenMod/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="gh" revision="cm-10.1" />	
+</manifest>

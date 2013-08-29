@@ -1,0 +1,12 @@
+#
+# system.prop for smdk4x12
+#
+dalvik.vm.dexopt-data-only=1
+ro.sf.lcd_density=160
+ro.lcd_min_brightness=20
+
+#Additional parameters from T7S base firmware
+#ro.secure=0
+#ro.debuggable=1
+#persist.sys.usb.config=mtp,adb
+ro.allow.mock.location=1
